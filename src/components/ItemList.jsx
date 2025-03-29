@@ -1,6 +1,6 @@
 import Item from "./Item";
 
-const ItemList = ({ items, onDelete }) => {
+const ItemList = ({ items, onDelete })=> {
   return (
     <ul>
       {items.map((item) => (
